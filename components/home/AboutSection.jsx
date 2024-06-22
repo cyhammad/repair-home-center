@@ -1,5 +1,16 @@
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { phoneNumber } from "@/lib/phone";
 import { Zap } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const AboutSection = () => {
@@ -36,7 +47,7 @@ const AboutSection = () => {
             <br />
             <br />
             <span className="font-bold">Why Choose Repair Home Center?</span>
-            <ol className="list-decimal p-5">
+            <ol className="flex list-decimal flex-col gap-2 px-5 pt-3 text-sm">
               <li>
                 Experience and Expertise: With years of experience under our
                 belt, our team of skilled technicians knows the ins and outs of
@@ -57,6 +68,52 @@ const AboutSection = () => {
               </li>
             </ol>
           </div>
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button className="my-3 w-fit px-10" variant="secondary">
+                Hire us now
+              </Button>
+            </SheetTrigger>
+            <SheetContent
+              className="flex flex-col items-center justify-center"
+              side="bottom"
+            >
+              <SheetHeader>
+                <SheetTitle className="flex flex-col">
+                  <div className="flex items-center justify-center gap-2">
+                    <Image src="/logo.svg" width={40} height={40} alt="logo" />
+                    <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
+                      Repair Home Center
+                    </h1>
+                  </div>
+                </SheetTitle>
+                <SheetDescription>
+                  The most professional home appliance services you can get in
+                  Dubai and Abu Dhabi. You can hire us using call or whatsapp.
+                  We are available 24/7.
+                </SheetDescription>
+              </SheetHeader>
+              <div className="flex flex-col gap-2">
+                <Link
+                  href={`tel:${phoneNumber}`}
+                  className="group cursor-pointer"
+                >
+                  Phone number :{" "}
+                  <span className="font-semibold group-hover:text-primary">
+                    {phoneNumber}
+                  </span>
+                </Link>
+                <div className="flex max-w-sm items-center justify-center gap-2 py-10">
+                  <Button variant="outline">
+                    <Link href={`tel:${phoneNumber}`}>Call us</Link>
+                  </Button>
+                  <Button>
+                    <Link href={`https://wa.me/${phoneNumber}`}>Whatsapp</Link>
+                  </Button>
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </div>

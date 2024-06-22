@@ -1,8 +1,10 @@
 import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/header/home/AboutSection";
-import Header from "@/components/header/home/Header";
-import StatsSection from "@/components/header/home/StatsSection";
-import Topbar from "@/components/header/home/Topbar";
+import AboutSection from "@/components/home/AboutSection";
+import Footer from "@/components/home/Footer";
+import Header from "@/components/home/Header";
+import ServicesSection from "@/components/home/ServicesSection";
+import StatsSection from "@/components/home/StatsSection";
+import Topbar from "@/components/home/Topbar";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <AboutSection />
+      <ServicesSection />
+      <Footer />
     </div>
   );
 }
