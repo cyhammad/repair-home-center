@@ -15,7 +15,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="flex w-full items-center justify-center bg-secondary-foreground py-10 text-secondary">
+    <section
+      id="about"
+      className="flex w-full items-center justify-center bg-secondary-foreground py-10 text-secondary"
+    >
       <div className="grid w-full max-w-7xl grid-cols-1 md:grid-cols-2">
         <div className="flex items-center">
           <div className="relative h-fit p-5">
@@ -116,7 +119,7 @@ const AboutSection = () => {
           </Sheet>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

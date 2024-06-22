@@ -12,10 +12,26 @@ import Image from "next/image";
 import Link from "next/link";
 import { phoneNumber } from "@/lib/phone";
 
-const ServiceCard = ({ title, desc }) => {
+const ServiceCard = ({ type, title, desc }) => {
+  const bgImage =
+    type == "tv"
+      ? "bg-[url('/services/tv.jpg')]"
+      : type == "fridge"
+        ? "bg-[url('/services/fridge.jpg')]"
+        : type == "dryer"
+          ? "bg-[url('/services/dryer.jpg')]"
+          : type == "washing-machine"
+            ? "bg-[url('/services/washing-machine.jpg')]"
+            : type == "oven"
+              ? "bg-[url('/services/oven.jpg')]"
+              : type == "dishwasher"
+                ? "bg-[url('/services/dishwasher.jpg')]"
+                : type == "stove"
+                  ? "bg-[url('/services/stove.jpg')]"
+                  : "bg-[url('/services/tv.jpg)']";
   return (
     <div
-      className={`min-h-[500px] w-full min-w-[250px] max-w-[500px] overflow-hidden rounded-md bg-[url('/services/tv.jpg')] bg-cover bg-center`}
+      className={`min-h-[500px] w-full min-w-[250px] max-w-[500px] overflow-hidden rounded-md ${bgImage} bg-cover bg-center`}
     >
       <div className="flex h-full w-full flex-col justify-between bg-black/50 p-5 text-start md:p-7 xl:p-10">
         <h1 className="text-3xl font-semibold text-white">{title}</h1>
