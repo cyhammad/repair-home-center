@@ -29,15 +29,15 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="flex w-full justify-center gap-1 border-t py-5 text-center text-xs">
+      <div className="w-full justify-center gap-1 border-t py-5 text-center text-xs">
         © 2024 Repair Home Center. All rights reserved. Code by{" "}
         <Link
           className="font-bold hover:underline"
           href="https://github.com/cyhammad"
         >
           cyhammad
-        </Link>{" "}
-        <Heart className="h-4 w-4 text-red-400" />
+        </Link>
+        .
       </div>
     </div>
   );
