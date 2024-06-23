@@ -18,7 +18,7 @@ const BoschPage = () => {
       <StatsSection />
       <AboutSection company="bosch" />
       <ServicesSection />
-      <ScheduleAppointmentSection />
+      <ScheduleAppointmentSection company="bosch" />
       <WhyChooseUs />
       <Footer
         logo={

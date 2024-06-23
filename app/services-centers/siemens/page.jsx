@@ -34,7 +34,7 @@ const SiemensPage = () => {
       <WhyChooseUs />
       <AboutSection company="siemens" />
       <ServicesSection />
-      <ScheduleAppointmentSection />
+      <ScheduleAppointmentSection company="siemens" />
       <Footer
         logo={
           <Link

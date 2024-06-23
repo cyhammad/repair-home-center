@@ -34,7 +34,7 @@ const LgPage = () => {
       <WhyChooseUs />
       <AboutSection company="lg" />
       <ServicesSection />
-      <ScheduleAppointmentSection />
+      <ScheduleAppointmentSection company="lg" />
       <Footer
         logo={
           <Link

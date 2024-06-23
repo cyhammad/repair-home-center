@@ -34,7 +34,7 @@ const SamsungPage = () => {
       <WhyChooseUs />
       <AboutSection company="samsung" />
       <ServicesSection />
-      <ScheduleAppointmentSection />
+      <ScheduleAppointmentSection company="samsung" />
       <Footer
         logo={
           <Link

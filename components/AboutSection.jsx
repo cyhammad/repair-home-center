@@ -17,7 +17,7 @@ const AboutSection = ({ company = "none" }) => {
   return (
     <section
       id="about"
-      className="flex w-full items-center justify-center bg-secondary-foreground py-10 text-secondary"
+      className={`flex w-full items-center justify-center ${company === "bosch" ? "bg-[#007BC0]" : company === "lg" ? "bg-[#A50034]" : company === "samsung" ? "bg-[#000000]" : company === "siemens" ? "bg-[#000028]" : "bg-secondary-foreground"} py-10 text-secondary`}
     >
       <div className="grid w-full max-w-7xl grid-cols-1 md:grid-cols-2">
         <div className="flex items-center">

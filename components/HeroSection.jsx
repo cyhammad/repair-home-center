@@ -31,7 +31,19 @@ const HeroSection = ({ company = "none" }) => {
               <Button variant="outline">
                 <Link href={`tel:${phoneNumber}`}>Call us now</Link>
               </Button>
-              <Button>
+              <Button
+                className={
+                  company === "bosch"
+                    ? "bg-[#007BC0]"
+                    : company === "lg"
+                      ? "bg-[#A50034]"
+                      : company === "samsung"
+                        ? "bg-[#000000]"
+                        : company === "siemens"
+                          ? "bg-[#000028]"
+                          : "bg-secondary-foreground"
+                }
+              >
                 <Link href={`https://wa.me/${phoneNumber}`}>
                   Hire using Whatsapp
                 </Link>
