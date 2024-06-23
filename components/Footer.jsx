@@ -33,14 +33,7 @@ const Footer = ({
         </div>
       </div>
       <div className="w-full justify-center gap-1 border-t border-black/20 py-5 text-center text-xs">
-        © 2024 Repair Home Center. All rights reserved. Code by{" "}
-        <Link
-          className="font-bold hover:underline"
-          href="https://github.com/cyhammad"
-        >
-          cyhammad
-        </Link>
-        .
+        © 2024 Repair Home Center. All rights reserved.
       </div>
     </footer>
   );
