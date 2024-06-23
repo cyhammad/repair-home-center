@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navlinks from "../NavLinks";
 
 const BoschHeader = () => {
@@ -34,7 +34,7 @@ const BoschHeader = () => {
     <>
       <div className="h-2 w-full bg-[url('/company/bosch-top-border.svg')] bg-cover bg-center"></div>
       <header
-        className={`${isVisible ? "fixed top-0" : "-top-100 absolute"} ${window.scrollY > 30 ? "mt-0" : "mt-2"} z-50 flex w-full items-center justify-center bg-white px-5 py-5 shadow transition-all duration-200 ease-in-out`}
+        className={`${isVisible ? "fixed top-0" : "-top-100 absolute"} ${typeof window !== "undefined" && window.scrollY > 30 ? "mt-0" : "mt-2"} z-50 flex w-full items-center justify-center bg-white px-5 py-5 shadow transition-all duration-200 ease-in-out`}
       >
         <div className="flex w-full max-w-7xl items-center justify-between gap-5">
           <Link
