@@ -20,6 +20,9 @@ const HeroSection = ({ company = "none" }) => {
               your appliances break down, it disrupts your daily life. Our team
               of skilled technicians is dedicated to restoring your appliances
               promptly and efficiently.
+              <br />
+              <br />
+              Official authorized service center
               <br /> Available in{" "}
               <span className="font-semibold text-primary">Dubai</span> and{" "}
               <span className="font-semibold text-primary">Abu Dhabi</span>.
