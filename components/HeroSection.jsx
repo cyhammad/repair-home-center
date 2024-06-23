@@ -4,9 +4,11 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { phoneNumber } from "@/lib/phone";
 
-const HeroSection = () => {
+const HeroSection = ({ company = "none" }) => {
   return (
-    <section className="flex items-center py-20 justify-center bg-[url('/hero-bg.jpg')] bg-cover bg-fixed bg-center px-5">
+    <section
+      className={`flex items-center justify-center ${company === "none" ? "bg-[url('/hero-bg.jpg')]" : "border-b border-black/20 bg-white"} bg-cover bg-fixed bg-center px-5 py-20`}
+    >
       <div className="w-full max-w-7xl py-10 lg:py-20">
         <div className="grid lg:grid-cols-7 lg:items-center lg:gap-x-8 xl:gap-x-12">
           <div className="lg:col-span-3">
@@ -32,35 +34,39 @@ const HeroSection = () => {
                 </Link>
               </Button>
             </div>
-            <div className="mt-6 lg:mt-12">
-              <span className="text-xs font-medium uppercase">Trusted by:</span>
-              <div className="mt-4 grid grid-cols-2 items-center gap-2 sm:grid-cols-4 sm:justify-items-center">
-                <Image
-                  src="/company/bosch-logo.svg"
-                  width={100}
-                  height={20}
-                  alt="bosch logo"
-                />
-                <Image
-                  src="/company/lg-logo.svg"
-                  width={70}
-                  height={20}
-                  alt="lg logo"
-                />
-                <Image
-                  src="/company/siemens-logo.svg"
-                  width={100}
-                  height={20}
-                  alt="siemens logo"
-                />
-                <Image
-                  src="/company/samsung-logo.svg"
-                  width={100}
-                  height={20}
-                  alt="samsung logo"
-                />
+            {company === "none" && (
+              <div className="mt-6 lg:mt-12">
+                <span className="text-xs font-medium uppercase">
+                  Trusted by:
+                </span>
+                <div className="mt-4 grid grid-cols-2 items-center gap-2 sm:grid-cols-4 sm:justify-items-center">
+                  <Image
+                    src="/company/bosch-logo.svg"
+                    width={100}
+                    height={20}
+                    alt="bosch logo"
+                  />
+                  <Image
+                    src="/company/lg-logo.svg"
+                    width={70}
+                    height={20}
+                    alt="lg logo"
+                  />
+                  <Image
+                    src="/company/siemens-logo.svg"
+                    width={100}
+                    height={20}
+                    alt="siemens logo"
+                  />
+                  <Image
+                    src="/company/samsung-logo.svg"
+                    width={100}
+                    height={20}
+                    alt="samsung logo"
+                  />
+                </div>
               </div>
-            </div>
+            )}
           </div>
           <div className="mt-10 lg:col-span-4 lg:mt-0">
             <Image

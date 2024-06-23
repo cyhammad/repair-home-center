@@ -3,17 +3,21 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Footer = () => {
+const Footer = ({
+  logo = (
+    <Link href="/" className="group flex items-center gap-2">
+      <Image src="/logo.svg" width={40} height={40} alt="logo" />
+      <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
+        Repair Home Center
+      </h1>
+    </Link>
+  ),
+}) => {
   return (
     <footer className="flex w-full flex-col items-center justify-center border-t border-black/20 bg-primary-foreground text-primary">
       <div className="grid w-full max-w-7xl grid-cols-1 px-5 py-10 md:grid-cols-2">
         <div className="flex flex-col gap-3">
-          <Link href="/" className="group flex items-center gap-2">
-            <Image src="/logo.svg" width={40} height={40} alt="logo" />
-            <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
-              Repair Home Center
-            </h1>
-          </Link>
+          {logo}
           <span className="text-sm">
             When your appliances act up, trust Repair Home Center to bring them
             back to life. Call us at{" "}
