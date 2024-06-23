@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center bg-primary-foreground text-primary">
+    <footer className="flex w-full flex-col items-center justify-center border-t border-black/20 bg-primary-foreground text-primary">
       <div className="grid w-full max-w-7xl grid-cols-1 px-5 py-10 md:grid-cols-2">
         <div className="flex flex-col gap-3">
           <Link href="/" className="group flex items-center gap-2">
@@ -28,7 +28,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="w-full justify-center gap-1 border-t py-5 text-center text-xs">
+      <div className="w-full justify-center gap-1 border-t border-black/20 py-5 text-center text-xs">
         © 2024 Repair Home Center. All rights reserved. Code by{" "}
         <Link
           className="font-bold hover:underline"
@@ -38,7 +38,7 @@ const Footer = () => {
         </Link>
         .
       </div>
-    </div>
+    </footer>
   );
 };
 

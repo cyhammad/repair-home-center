@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function StatsSection() {
   return (
-    <div className="flex w-full items-center justify-center p-5">
+    <section className="flex w-full items-center justify-center p-5">
       <div className="grid w-full max-w-7xl grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -55,6 +55,6 @@ export default function StatsSection() {
           </CardContent>
         </Card>
       </div>
-    </div>
+    </section>
   );
 }

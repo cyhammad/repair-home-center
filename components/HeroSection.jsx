@@ -6,7 +6,7 @@ import { phoneNumber } from "@/lib/phone";
 
 const HeroSection = () => {
   return (
-    <div className="flex items-center justify-center bg-[url('/hero-bg.jpg')] bg-cover bg-fixed bg-center px-5">
+    <section className="flex items-center py-20 justify-center bg-[url('/hero-bg.jpg')] bg-cover bg-fixed bg-center px-5">
       <div className="w-full max-w-7xl py-10 lg:py-20">
         <div className="grid lg:grid-cols-7 lg:items-center lg:gap-x-8 xl:gap-x-12">
           <div className="lg:col-span-3">
@@ -73,7 +73,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
