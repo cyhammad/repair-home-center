@@ -7,6 +7,8 @@ import StatsSection from "@/components/StatsSection";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ScheduleAppointmentSection from "@/components/ScheduleAppointmentSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const BoschPage = () => {
   return (
@@ -16,6 +18,8 @@ const BoschPage = () => {
       <StatsSection />
       <AboutSection company="bosch" />
       <ServicesSection />
+      <ScheduleAppointmentSection />
+      <WhyChooseUs />
       <Footer
         logo={
           <Link

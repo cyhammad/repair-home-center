@@ -7,6 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Header from "@/components/home/Header";
+import ScheduleAppointmentSection from "@/components/ScheduleAppointmentSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const SiemensPage = () => {
   return (
@@ -29,8 +31,10 @@ const SiemensPage = () => {
       />
       <HeroSection company="siemens" />
       <StatsSection />
+      <WhyChooseUs />
       <AboutSection company="siemens" />
       <ServicesSection />
+      <ScheduleAppointmentSection />
       <Footer
         logo={
           <Link

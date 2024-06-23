@@ -7,6 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Header from "@/components/home/Header";
+import ScheduleAppointmentSection from "@/components/ScheduleAppointmentSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const LgPage = () => {
   return (
@@ -29,8 +31,10 @@ const LgPage = () => {
       />
       <HeroSection company="lg" />
       <StatsSection />
+      <WhyChooseUs />
       <AboutSection company="lg" />
       <ServicesSection />
+      <ScheduleAppointmentSection />
       <Footer
         logo={
           <Link
