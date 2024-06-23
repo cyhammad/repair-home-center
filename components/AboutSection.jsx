@@ -13,7 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const AboutSection = () => {
+const AboutSection = ({ company = "none" }) => {
   return (
     <section
       id="about"
@@ -40,16 +40,17 @@ const AboutSection = () => {
             <span className="text-lg font-light">About us</span>
           </div>
           <h1 className="text-3xl font-bold">
-            Repair Home Center: Your Trusted Appliance Repair Experts
+            {company === "none" && "Repair Home Center: "}Your Trusted Appliance
+            Repair Experts
           </h1>
           <div className="my-4 border-l-4 border-yellow-400 px-5">
-            At Repair Home Center, we take pride in being your trusted partner
-            for all your home appliance repair needs. Our mission is simple: to
-            keep your household running smoothly by ensuring your appliances are
-            in top-notch condition.
+            We take pride in being your trusted partner for all your home
+            appliance repair needs. Our mission is simple: to keep your
+            household running smoothly by ensuring your appliances are in
+            top-notch condition.
             <br />
             <br />
-            <span className="font-bold">Why Choose Repair Home Center?</span>
+            <span className="font-bold">Why Choose Us?</span>
             <ol className="flex list-decimal flex-col gap-2 px-5 pt-3 text-sm">
               <li>
                 Experience and Expertise: With years of experience under our
@@ -57,8 +58,8 @@ const AboutSection = () => {
                 various appliances.
               </li>
               <li>
-                Prompt Service: We understand that a broken appliance can
-                disrupt your daily routine. That's why we prioritize prompt
+                On Call Service: We understand that a broken appliance can
+                disrupt your daily routine. That's why we prioritize call
                 service.
               </li>
               <li>
@@ -74,7 +75,7 @@ const AboutSection = () => {
           <Sheet>
             <SheetTrigger asChild>
               <Button className="my-3 w-fit px-10" variant="secondary">
-                Hire us now
+                Call us now
               </Button>
             </SheetTrigger>
             <SheetContent

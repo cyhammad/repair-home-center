@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Navlinks from "../home/NavLinks";
+import Navlinks from "../NavLinks";
 
 const BoschHeader = () => {
   const [isVisible, setIsVisible] = useState(true);

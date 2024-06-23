@@ -1,5 +1,4 @@
 import HeroSection from "@/components/HeroSection";
-import BoschHeader from "@/components/bosch/BoschHeader";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
@@ -7,23 +6,39 @@ import StatsSection from "@/components/StatsSection";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Header from "@/components/home/Header";
 
-const BoschPage = () => {
+const SiemensPage = () => {
   return (
     <div className="flex flex-col">
-      <BoschHeader />
-      <HeroSection company="bosch" />
+      <Header
+        company="siemens"
+        logo={
+          <Link
+            href="/services-centers/siemens"
+            className="group flex items-center gap-2"
+          >
+            <Image
+              src="/company/siemens-logo.svg"
+              width={120}
+              height={50}
+              alt="logo"
+            />
+          </Link>
+        }
+      />
+      <HeroSection company="siemens" />
       <StatsSection />
-      <AboutSection company="bosch" />
+      <AboutSection company="siemens" />
       <ServicesSection />
       <Footer
         logo={
           <Link
-            href="/services-centers/bosch"
+            href="/services-centers/siemens"
             className="group flex items-center gap-2"
           >
             <Image
-              src="/company/bosch-logo.svg"
+              src="/company/siemens-logo.svg"
               width={120}
               height={50}
               alt="logo"
@@ -35,4 +50,4 @@ const BoschPage = () => {
   );
 };
 
-export default BoschPage;
+export default SiemensPage;

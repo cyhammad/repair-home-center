@@ -19,8 +19,8 @@ const Footer = ({
         <div className="flex flex-col gap-3">
           {logo}
           <span className="text-sm">
-            When your appliances act up, trust Repair Home Center to bring them
-            back to life. Call us at{" "}
+            When your appliances act up, trust us to bring them back to life.
+            Call us at{" "}
             <Link
               className="font-bold hover:underline"
               href={`tel:${phoneNumber}`}

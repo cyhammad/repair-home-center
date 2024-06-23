@@ -17,10 +17,10 @@ const ServicesSection = () => {
           If it needs repairing, we can fix it!
         </h1>
         <span className="max-w-3xl text-sm font-medium text-primary/70">
-          Certainly! Trust is the cornerstone of our business at Repair Home
-          Center. Our skilled technicians undergo rigorous training and
-          certification. When they arrive at your doorstep, you can trust that
-          they'll diagnose and repair your appliances with expertise.
+          Certainly! Trust is the cornerstone of our business. Our skilled
+          technicians undergo rigorous training and certification. When they
+          arrive at your doorstep, you can trust that they'll diagnose and
+          repair your appliances with expertise.
         </span>
         <div className="grid w-full grid-cols-1 gap-5 py-10 sm:grid-cols-2 md:grid-cols-3">
           <ServiceCard
