@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { phoneNumber } from "@/lib/phone";
 
-const HeroSection = ({ company = "none" }) => {
+const HeroSection = ({ company = "none", title }) => {
   return (
     <section
       className={`flex items-center justify-center ${company === "none" ? "bg-[url('/hero-bg.jpg')]" : "border-b border-black/20 bg-white"} bg-cover bg-fixed bg-center px-5 py-20`}
@@ -13,9 +13,12 @@ const HeroSection = ({ company = "none" }) => {
         <div className="grid lg:grid-cols-7 lg:items-center lg:gap-x-8 xl:gap-x-12">
           <div className="lg:col-span-3">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-              Reliable, and Affordable Home Appliance Repairs
+              {title || "Authorized Service Center:"} <br />
+              <span className="text-black/40">
+                Official Home Appliance Repairs
+              </span>
             </h1>
-            <p className="mt-3 py-5 text-xl text-muted-foreground">
+            <p className="mt-3 py-5 text-muted-foreground">
               We understand the importance of a smoothly functioning home. When
               your appliances break down, it disrupts your daily life. Our team
               of skilled technicians is dedicated to restoring your appliances

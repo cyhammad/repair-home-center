@@ -29,7 +29,7 @@ const SamsungPage = () => {
           </Link>
         }
       />
-      <HeroSection company="samsung" />
+      <HeroSection company="samsung" title="Authorized Samsung Service Center:" />
       <StatsSection />
       <WhyChooseUs />
       <AboutSection company="samsung" />

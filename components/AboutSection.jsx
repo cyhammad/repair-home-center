@@ -8,12 +8,14 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { phoneNumber } from "@/lib/phone";
-import { Zap } from "lucide-react";
+import { CheckCheck, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const AboutSection = ({ company = "none" }) => {
+  // Make first letter capital of company
+  const companyPascalCase = company.charAt(0).toUpperCase() + company.slice(1);
   return (
     <section
       id="about"
@@ -50,27 +52,37 @@ const AboutSection = ({ company = "none" }) => {
             top-notch condition.
             <br />
             <br />
-            <span className="font-bold">Why Choose Us?</span>
-            <ol className="flex list-decimal flex-col gap-2 px-5 pt-3 text-sm">
-              <li>
-                Experience and Expertise: With years of experience under our
-                belt, our team of skilled technicians knows the ins and outs of
-                various appliances.
+            <span className="text-xl font-bold">Repair Services:</span>
+            <ul className="flex flex-col gap-2 px-1 pt-3 font-medium">
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Washing Machine Repair
               </li>
-              <li>
-                On Call Service: We understand that a broken appliance can
-                disrupt your daily routine. That's why we prioritize call
-                service.
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Refrigerator Repair
               </li>
-              <li>
-                Transparent Pricing: No surprises here! We believe in
-                transparent pricing.
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Stove/Cooker Repair
               </li>
-              <li>
-                Quality Repairs: Our commitment to quality extends to every
-                repair job.
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Dryer Repair
               </li>
-            </ol>
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Television Repair
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Dishwasher Repair
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCheck className="h-5 w-5 text-yellow-400" />
+                {companyPascalCase} Gas Oven Repair
+              </li>
+            </ul>
           </div>
           <Sheet>
             <SheetTrigger asChild>

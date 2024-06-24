@@ -29,7 +29,7 @@ const LgPage = () => {
           </Link>
         }
       />
-      <HeroSection company="lg" />
+      <HeroSection company="lg" title="Authorized LG Service Center:" />
       <StatsSection />
       <WhyChooseUs />
       <AboutSection company="lg" />
