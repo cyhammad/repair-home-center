@@ -31,9 +31,9 @@ const LgPage = () => {
       />
       <HeroSection company="lg" title="Authorized LG Service Center:" />
       <StatsSection />
-      <WhyChooseUs />
       <AboutSection company="lg" />
       <ServicesSection />
+      <WhyChooseUs />
       <ScheduleAppointmentSection company="lg" />
       <Footer
         logo={

@@ -31,9 +31,9 @@ const SamsungPage = () => {
       />
       <HeroSection company="samsung" title="Authorized Samsung Service Center:" />
       <StatsSection />
-      <WhyChooseUs />
       <AboutSection company="samsung" />
       <ServicesSection />
+      <WhyChooseUs />
       <ScheduleAppointmentSection company="samsung" />
       <Footer
         logo={

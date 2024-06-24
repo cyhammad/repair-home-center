@@ -31,9 +31,9 @@ const SiemensPage = () => {
       />
       <HeroSection company="siemens" title="Authorized Siemens Service Center:" />
       <StatsSection />
-      <WhyChooseUs />
       <AboutSection company="siemens" />
       <ServicesSection />
+      <WhyChooseUs />
       <ScheduleAppointmentSection company="siemens" />
       <Footer
         logo={
