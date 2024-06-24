@@ -15,7 +15,10 @@ import React from "react";
 
 const AboutSection = ({ company = "none" }) => {
   // Make first letter capital of company
-  const companyPascalCase = company.charAt(0).toUpperCase() + company.slice(1);
+  const companyPascalCase =
+    company !== "none"
+      ? company.charAt(0).toUpperCase() + company.slice(1)
+      : "";
   return (
     <section
       id="about"
