@@ -73,10 +73,17 @@ const AboutSection = ({ company = "none" }) => {
                 <CheckCheck className="h-5 w-5 text-yellow-400" />
                 {companyPascalCase} Dryer Repair
               </li>
-              <li className="flex items-center gap-2">
-                <CheckCheck className="h-5 w-5 text-yellow-400" />
-                {companyPascalCase} Television Repair
-              </li>
+              {company === "bosch" || "siemens" ? (
+                <li className="flex items-center gap-2">
+                  <CheckCheck className="h-5 w-5 text-yellow-400" />
+                  {companyPascalCase} Coffee Machine Repair
+                </li>
+              ) : (
+                <li className="flex items-center gap-2">
+                  <CheckCheck className="h-5 w-5 text-yellow-400" />
+                  {companyPascalCase} Television Repair
+                </li>
+              )}
               <li className="flex items-center gap-2">
                 <CheckCheck className="h-5 w-5 text-yellow-400" />
                 {companyPascalCase} Dishwasher Repair
