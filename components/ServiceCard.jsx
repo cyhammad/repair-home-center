@@ -29,7 +29,7 @@ const ServiceCard = ({ type, title, desc }) => {
                 : type == "stove"
                   ? "bg-[url('/services/stove.jpg')]"
                   : type == "coffee-maker"
-                    ? "bg-[url('/services/coffee-maker.jpg)']"
+                    ? "bg-[url('/services/coffee-maker.jpg')]"
                     : "";
   console.log("BGGG", bgImage);
   return (
