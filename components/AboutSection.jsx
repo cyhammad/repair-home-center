@@ -134,7 +134,12 @@ const AboutSection = ({ company = "none" }) => {
                     <Link href={`tel:${phoneNumber}`}>Call us</Link>
                   </Button>
                   <Button>
-                    <Link href={`https://wa.me/${phoneNumber}`}>Whatsapp</Link>
+                    {/* Write the message "Hey! I want Home Appliance Repair Service." */}
+                    <Link
+                      href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}
+                    >
+                      Whatsapp
+                    </Link>
                   </Button>
                 </div>
               </div>
