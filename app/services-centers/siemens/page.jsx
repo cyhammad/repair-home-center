@@ -29,10 +29,13 @@ const SiemensPage = () => {
           </Link>
         }
       />
-      <HeroSection company="siemens" title="Authorized Siemens Service Center:" />
+      <HeroSection
+        company="siemens"
+        title="Authorized Siemens Service Center:"
+      />
       <StatsSection />
       <AboutSection company="siemens" />
-      <ServicesSection />
+      <ServicesSection company="siemens" />
       <WhyChooseUs />
       <ScheduleAppointmentSection company="siemens" />
       <Footer

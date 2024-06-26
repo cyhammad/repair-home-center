@@ -32,7 +32,7 @@ const LgPage = () => {
       <HeroSection company="lg" title="Authorized LG Service Center:" />
       <StatsSection />
       <AboutSection company="lg" />
-      <ServicesSection />
+      <ServicesSection company="lg" />
       <WhyChooseUs />
       <ScheduleAppointmentSection company="lg" />
       <Footer

@@ -2,7 +2,7 @@ import { Wrench } from "lucide-react";
 import React from "react";
 import ServiceCard from "./ServiceCard";
 
-const ServicesSection = () => {
+const ServicesSection = ({ company = "none" }) => {
   return (
     <section
       id="services"
@@ -23,11 +23,22 @@ const ServicesSection = () => {
           repair your appliances with expertise.
         </span>
         <div className="grid w-full grid-cols-1 gap-5 py-10 sm:grid-cols-2 md:grid-cols-3">
-          <ServiceCard
-            type="tv"
-            title="Tv Repair"
-            desc="When your TV screen goes dark or the sound disappears, we are here to bring your entertainment back to life. Whether it's a plasma, LED, or smart TV, we've got you covered!"
-          />
+          {(company == "none" || company == "samsung" || company == "lg") && (
+            <ServiceCard
+              type="tv"
+              title="Tv Repair"
+              desc="When your TV screen goes dark or the sound disappears, we are here to bring your entertainment back to life. Whether it's a plasma, LED, or smart TV, we've got you covered!"
+            />
+          )}
+          {(company == "none" ||
+            company == "siemens" ||
+            company == "bosch") && (
+            <ServiceCard
+              type="coffee-maker"
+              title="Coffee Maker Repair"
+              desc="Is your coffee maker not brewing the perfect cup? Our skilled technicians will diagnose and fix the issue promptly. Trust us to keep your mornings hassle-free!"
+            />
+          )}
           <ServiceCard
             type="washing-machine"
             title="Washing Machine Repair"

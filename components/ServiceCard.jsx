@@ -28,10 +28,13 @@ const ServiceCard = ({ type, title, desc }) => {
                 ? "bg-[url('/services/dishwasher.jpg')]"
                 : type == "stove"
                   ? "bg-[url('/services/stove.jpg')]"
-                  : "bg-[url('/services/tv.jpg)']";
+                  : type == "coffee-maker"
+                    ? "bg-[url('/services/coffee-maker.jpg)']"
+                    : "";
+  console.log("BGGG", bgImage);
   return (
     <div
-      className={`min-h-[500px] w-full min-w-[250px] max-w-[500px] overflow-hidden rounded-md ${bgImage} bg-cover bg-center`}
+      className={`min-h-[500px] w-full min-w-[250px] max-w-[500px] overflow-hidden rounded-md ${bgImage} bg-cover bg-center bg-no-repeat`}
     >
       <div className="flex h-full w-full flex-col justify-between bg-black/50 p-5 text-start md:p-7 xl:p-10">
         <h1 className="text-3xl font-semibold text-white">{title}</h1>
@@ -79,7 +82,11 @@ const ServiceCard = ({ type, title, desc }) => {
                     <Link href={`tel:${phoneNumber}`}>Call us</Link>
                   </Button>
                   <Button>
-                    <Link href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>Whatsapp</Link>
+                    <Link
+                      href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}
+                    >
+                      Whatsapp
+                    </Link>
                   </Button>
                 </div>
               </div>

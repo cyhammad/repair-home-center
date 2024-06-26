@@ -17,7 +17,7 @@ const BoschPage = () => {
       <HeroSection company="bosch" title="Authorized Bosch Service Center:" />
       <StatsSection />
       <AboutSection company="bosch" />
-      <ServicesSection />
+      <ServicesSection company="bosch" />
       <WhyChooseUs />
       <ScheduleAppointmentSection company="bosch" />
       <Footer
