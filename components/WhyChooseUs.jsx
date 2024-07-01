@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
           Center for reliable, hassle-free repairs.
         </span>
         <div className="grid items-center justify-center gap-5 py-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+          <div className="flex w-full flex-col items-center gap-5 border-b border-black pb-7">
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               1
             </span>
@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
               repair the Appliance.
             </span>
           </div>
-          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+          <div className="flex w-full flex-col items-center gap-5 border-b border-black pb-7">
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               2
             </span>
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
               and dedication.
             </span>
           </div>
-          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+          <div className="flex w-full flex-col items-center gap-5 border-b border-black pb-7">
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               3
             </span>
@@ -60,7 +60,7 @@ const WhyChooseUs = () => {
               performance.
             </span>
           </div>
-          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+          <div className="flex w-full flex-col items-center gap-5 border-b border-black pb-7">
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               4
             </span>
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
               appliance issue.
             </span>
           </div>
-          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+          <div className="flex w-full flex-col items-center gap-5 border-b border-black pb-7">
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               5
             </span>
