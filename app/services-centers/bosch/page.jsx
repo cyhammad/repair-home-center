@@ -15,7 +15,7 @@ const BoschPage = () => {
     <div className="flex flex-col">
       <BoschHeader />
       <HeroSection company="bosch" title="Authorized Bosch Service Center:" />
-      <StatsSection />
+      <StatsSection company="bosch" />
       <AboutSection company="bosch" />
       <ServicesSection company="bosch" />
       <WhyChooseUs />

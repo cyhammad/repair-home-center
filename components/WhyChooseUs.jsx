@@ -1,4 +1,13 @@
-import { AlarmClockCheck, Boxes, Clock, MessageCircleReply, ServerCrash, ShieldCheck, TimerReset, UsersRound } from "lucide-react";
+import {
+  AlarmClockCheck,
+  Boxes,
+  Clock,
+  MessageCircleReply,
+  ServerCrash,
+  ShieldCheck,
+  TimerReset,
+  UsersRound,
+} from "lucide-react";
 
 const WhyChooseUs = () => {
   return (
@@ -20,28 +29,56 @@ const WhyChooseUs = () => {
           We provide upfront quotes and transparent pricing. Choose Repair Home
           Center for reliable, hassle-free repairs.
         </span>
-        <div className="flex flex-wrap items-center justify-center gap-5 py-10">
-          <div className="flex h-52 w-32 cursor-pointer flex-col items-center justify-center gap-5 border-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
-            <AlarmClockCheck className="h-16 w-16 text-yellow-500" strokeWidth={1} />
+        <div className="grid items-center justify-center gap-5 py-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+            <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
+              1
+            </span>
             <h1 className="text-sm font-semibold">Quick Response Time</h1>
+            <span className="text-xs text-black/75">
+              This type of approach to our work helps our specialists to quickly
+              repair the Appliance.
+            </span>
           </div>
-          <div className="flex h-52 w-32 cursor-pointer flex-col items-center justify-center gap-5 border-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
-            <UsersRound className="h-16 w-16 text-yellow-500" strokeWidth={1} />
+          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+            <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
+              2
+            </span>
             <h1 className="text-sm font-semibold">Experienced Technicians</h1>
+            <span className="text-xs text-black/75">
+              Delivering top-tier home repair services with unmatched expertise
+              and dedication.
+            </span>
           </div>
-          <div className="flex h-52 w-32 cursor-pointer flex-col items-center justify-center gap-5 border-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
-            <ShieldCheck className="h-16 w-16 text-yellow-500" strokeWidth={1} />
+          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+            <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
+              3
+            </span>
             <h1 className="text-sm font-semibold">High Quality Parts</h1>
+            <span className="text-xs text-black/75">
+              We provide High Quality Repairs that can Last Longer improving the
+              performance.
+            </span>
           </div>
-          <div className="flex h-52 w-32 cursor-pointer flex-col items-center justify-center gap-5 border-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
-            <ServerCrash className="h-16 w-16 text-yellow-500" strokeWidth={1} />
-            <h1 className="text-sm font-semibold">
-              Excellent Customer Service
-            </h1>
-          </div>
-          <div className="flex h-52 w-32 cursor-pointer flex-col items-center justify-center gap-5 border-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
-            <TimerReset className="h-16 w-16 text-yellow-500" strokeWidth={1} />
+          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+            <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
+              4
+            </span>
             <h1 className="text-sm font-semibold">24/7 Support</h1>
+            <span className="text-xs text-black/75">
+              You can rely on our 24/7 tech support that will gladly solve any
+              appliance issue.
+            </span>
+          </div>
+          <div className="flex cursor-pointer flex-col items-center justify-center gap-5 border-b-2 border-black/20 p-5 transition-all duration-200 ease-in-out hover:border-yellow-400 md:h-56 md:w-56">
+            <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
+              5
+            </span>
+            <h1 className="text-sm font-semibold">Quality Service</h1>
+            <span className="text-xs text-black/75">
+              We offer excellent customer services with highest ratio of
+              retained Customers.
+            </span>
           </div>
         </div>
       </div>
@@ -50,4 +87,3 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
-

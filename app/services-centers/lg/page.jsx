@@ -30,7 +30,7 @@ const LgPage = () => {
         }
       />
       <HeroSection company="lg" title="Authorized LG Service Center:" />
-      <StatsSection />
+      <StatsSection company="lg" />
       <AboutSection company="lg" />
       <ServicesSection company="lg" />
       <WhyChooseUs />
