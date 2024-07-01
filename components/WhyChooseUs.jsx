@@ -34,8 +34,8 @@ const WhyChooseUs = () => {
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               1
             </span>
-            <h1 className="text-sm font-semibold">Quick Response Time</h1>
-            <span className="text-xs text-black/75">
+            <h1 className="text-lg font-semibold">Quick Response Time</h1>
+            <span className="text-black/75">
               This type of approach to our work helps our specialists to quickly
               repair the Appliance.
             </span>
@@ -44,8 +44,8 @@ const WhyChooseUs = () => {
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               2
             </span>
-            <h1 className="text-sm font-semibold">Experienced Technicians</h1>
-            <span className="text-xs text-black/75">
+            <h1 className="text-lg font-semibold">Experienced Technicians</h1>
+            <span className="text-black/75">
               Delivering top-tier home repair services with unmatched expertise
               and dedication.
             </span>
@@ -54,8 +54,8 @@ const WhyChooseUs = () => {
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               3
             </span>
-            <h1 className="text-sm font-semibold">High Quality Parts</h1>
-            <span className="text-xs text-black/75">
+            <h1 className="text-lg font-semibold">High Quality Parts</h1>
+            <span className="text-black/75">
               We provide High Quality Repairs that can Last Longer improving the
               performance.
             </span>
@@ -64,8 +64,8 @@ const WhyChooseUs = () => {
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               4
             </span>
-            <h1 className="text-sm font-semibold">24/7 Support</h1>
-            <span className="text-xs text-black/75">
+            <h1 className="text-lg font-semibold">24/7 Support</h1>
+            <span className="text-black/75">
               You can rely on our 24/7 tech support that will gladly solve any
               appliance issue.
             </span>
@@ -74,8 +74,8 @@ const WhyChooseUs = () => {
             <span className="rounded-full bg-black px-4 py-1.5 text-xs text-white">
               5
             </span>
-            <h1 className="text-sm font-semibold">Quality Service</h1>
-            <span className="text-xs text-black/75">
+            <h1 className="text-lg font-semibold">Quality Service</h1>
+            <span className="text-black/75">
               We offer excellent customer services with highest ratio of
               retained Customers.
             </span>
