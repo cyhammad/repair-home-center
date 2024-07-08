@@ -13,14 +13,13 @@ const HeroSection = ({ company = "none", title }) => {
         <div className="grid lg:grid-cols-7 lg:items-center lg:gap-x-8 xl:gap-x-12">
           <div className="lg:col-span-3">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-              {title || "Repair Home Center:"} <br />
+              Your appliances deserve quality repair <br />
               <span className="text-black/40">
-                in Dubai & Abu Dhabi
+                We bring appliances back to life
               </span>
             </h1>
             <p className="mt-3 py-5 text-muted-foreground">
-              Repair Home Center is a Service Centre in Dubai and
-              Abu Dhabi. Trust our well-trained technicians to deliver
+              Trust our well-trained technicians to deliver
               professional & reliable repairs ensuring your appliances are
               in capable hands. Dishwasher Repair, Dryer, Washing
               Machine, Microwave and Refrigerator Repair.
