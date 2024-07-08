@@ -19,7 +19,7 @@ const HeroSection = ({ company = "none", title }) => {
               </span>
             </h1>
             <p className="mt-3 py-5 text-muted-foreground">
-              Quick Appliances Repairs is a Service Centre in Dubai and
+              Repair Home Center is a Service Centre in Dubai and
               Abu Dhabi. Trust our well-trained technicians to deliver
               professional & reliable repairs ensuring your appliances are
               in capable hands. Dishwasher Repair, Dryer, Washing

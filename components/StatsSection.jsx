@@ -40,7 +40,7 @@ export default function StatsSection({ company = "none" }) {
           alt="Logo"
         />
         <p className="ml-3 mt-3 text-sm font-medium tracking-wide md:mt-0">
-          Authorized Service Center
+          Appliance Service Center
         </p>
       </div>
       <div className="flex flex-row items-center">
