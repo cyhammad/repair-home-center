@@ -33,7 +33,7 @@ const SiemensPage = () => {
         company="siemens"
         title="Siemens Service Center:"
       />
-      <StatsSection />
+      <StatsSection company="siemens" />
       <AboutSection company="siemens" />
       <ServicesSection company="siemens" />
       <WhyChooseUs />

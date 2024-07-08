@@ -33,7 +33,7 @@ const SamsungPage = () => {
         company="samsung"
         title="Samsung Service Center:"
       />
-      <StatsSection />
+      <StatsSection company="samsung" />
       <AboutSection company="samsung" />
       <ServicesSection company="samsung" />
       <WhyChooseUs />
