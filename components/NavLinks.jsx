@@ -96,7 +96,7 @@ const Navlinks = () => {
               </div>
               <div className="flex flex-col gap-2 pt-20">
                 <Button variant="outline">
-                  <Link href={`tel:${phoneNumber}`}>Call us</Link>
+                  <a href={`tel:${phoneNumber}`}>Call us</a>
                 </Button>
                 <Button>
                   <Link href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>Whatsapp</Link>

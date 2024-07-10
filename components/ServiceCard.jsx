@@ -79,7 +79,7 @@ const ServiceCard = ({ type, title, desc }) => {
                 </Link>
                 <div className="flex max-w-sm items-center justify-center gap-2 py-10">
                   <Button variant="outline">
-                    <Link href={`tel:${phoneNumber}`}>Call us</Link>
+                    <a href={`tel:${phoneNumber}`}>Call us</a>
                   </Button>
                   <Button>
                     <Link

@@ -43,15 +43,15 @@ const Topbar = () => {
           </SheetDescription>
         </SheetHeader>
         <div className="flex flex-col gap-2">
-          <Link href={`tel:${phoneNumber}`} className="group cursor-pointer">
+          <a href={`tel:${phoneNumber}`} className="group cursor-pointer">
             Phone number :{" "}
             <span className="font-semibold group-hover:text-primary">
               {phoneNumber}
             </span>
-          </Link>
+          </a>
           <div className="flex max-w-sm items-center justify-center gap-2 py-10">
             <Button variant="outline">
-              <Link href={`tel:${phoneNumber}`}>Call us</Link>
+              <a href={`tel:${phoneNumber}`}>Call us</a>
             </Button>
             <Button>
               <Link href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>Whatsapp</Link>

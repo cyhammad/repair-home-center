@@ -26,7 +26,7 @@ const HeroSection = ({ company = "none", title }) => {
             </p>
             <div className="flex max-w-sm items-center gap-2">
               <Button variant="outline">
-                <Link href={`tel:${phoneNumber}`}>Call us now</Link>
+                <a href={`tel:${phoneNumber}`}>Call us now</a>
               </Button>
               <Button
                 className={`${
