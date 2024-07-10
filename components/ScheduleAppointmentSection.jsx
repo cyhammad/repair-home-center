@@ -18,9 +18,9 @@ const ScheduleAppointmentSection = ({ company = "none" }) => {
             <a href={`tel:${phoneNumber}`}>Call us now</a>
           </Button>
           <Button className="bg-transparent" variant="outline">
-            <Link href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>
+            <a href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>
               Hire using Whatsapp
-            </Link>
+            </a>
           </Button>
         </div>
       </div>

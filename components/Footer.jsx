@@ -21,12 +21,12 @@ const Footer = ({
           <span className="text-sm">
             When your appliances act up, trust us to bring them back to life.
             Call us at{" "}
-            <Link
+            <a
               className="font-bold hover:underline"
               href={`tel:${phoneNumber}`}
             >
               {phoneNumber}
-            </Link>{" "}
+            </a>{" "}
             or visit our website to schedule a repair. Your home deserves the
             best!
           </span>

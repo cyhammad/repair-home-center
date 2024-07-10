@@ -54,7 +54,7 @@ const Topbar = () => {
               <a href={`tel:${phoneNumber}`}>Call us</a>
             </Button>
             <Button>
-              <Link href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>Whatsapp</Link>
+              <a href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}>Whatsapp</a>
             </Button>
           </div>
         </div>

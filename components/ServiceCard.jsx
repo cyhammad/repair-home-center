@@ -68,7 +68,7 @@ const ServiceCard = ({ type, title, desc }) => {
                 </SheetDescription>
               </SheetHeader>
               <div className="flex flex-col gap-2">
-                <Link
+                <a
                   href={`tel:${phoneNumber}`}
                   className="group cursor-pointer"
                 >
@@ -76,17 +76,17 @@ const ServiceCard = ({ type, title, desc }) => {
                   <span className="font-semibold group-hover:text-primary">
                     {phoneNumber}
                   </span>
-                </Link>
+                </a>
                 <div className="flex max-w-sm items-center justify-center gap-2 py-10">
                   <Button variant="outline">
                     <a href={`tel:${phoneNumber}`}>Call us</a>
                   </Button>
                   <Button>
-                    <Link
+                    <a
                       href={`https://wa.me/${phoneNumber}?text=Hey!%20I%20want%20Home%20Appliance%20Repair%20Service.`}
                     >
                       Whatsapp
-                    </Link>
+                    </a>
                   </Button>
                 </div>
               </div>
