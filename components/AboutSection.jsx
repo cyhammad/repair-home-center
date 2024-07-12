@@ -28,15 +28,13 @@ const AboutSection = ({ company = "none" }) => {
         <div className="flex items-center">
           <div className="relative h-fit p-5">
             <Image
-              src="/about1.jpg"
+              src="/lg.jpg"
               width={500}
               height={500}
               alt="Image Description"
               className="w-full pb-5 pr-5"
             />
-            <div className="absolute bottom-5 right-5 h-[160px] w-[250px] bg-[url('/about2.jpg')] bg-cover bg-center">
-              <div className="h-full w-full bg-yellow-500/40"></div>
-            </div>
+            
           </div>
         </div>
         <div className="flex flex-col p-5">
