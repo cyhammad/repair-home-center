@@ -19,7 +19,7 @@ function samsungHero() {
                 </span>
               </h1>
               <p className="py-6 text-lg font-raleway">
-                Appliances Repairs UAE is a reliable Samsung service center in
+                We are a reliable Samsung service center in
                 Dubai and Abu Dhabi, you can rest assured that your appliance
                 will be fixed quickly and efficiently with the highest quality
                 parts available.
