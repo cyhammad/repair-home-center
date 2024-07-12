@@ -21,9 +21,9 @@ function siemensHero() {
               fixed quickly and efficiently with the highest quality parts
               available.
             </p>
-            <div className="flex flex-col ml-[-30px] md:flex-row md:gap-x-10 md:justify-start justify-center gap-y-2 px-10">
+            <div className="flex flex-col ml-[-30px] md:flex-row md:gap-x-10 md:justify-start justify-center gap-y-2 px-20">
               <button
-                className="px-5 py-4 bg-[#007BC0] text-white hover:text-black hover:text-lg hover:bg-[white] rounded-lg duration-200 shadow-md"
+                className="px-3 py-4 bg-[#007BC0] text-white hover:text-black hover:text-lg hover:bg-[white] rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
@@ -31,7 +31,7 @@ function siemensHero() {
                 {phoneNumber}
               </button>
               <button
-                className="px-5 py-4 bg-[#007BC0] rounded-lg text-white hover:text-black hover:text-lg hover:bg-[white] duration-200 shadow-md"
+                className="px-3 py-4 bg-[#007BC0] rounded-lg text-white hover:text-black hover:text-lg hover:bg-[white] duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
                 }}
