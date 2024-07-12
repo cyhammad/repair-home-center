@@ -14,7 +14,7 @@ export default function StatsSection({ company = "none" }) {
             : company === "samsung"
               ? "bg-[#000000]"
               : company === "siemens"
-                ? "bg-[#000028]"
+                ? "bg-[#007BC0]"
                 : "bg-primary"
       } px-4 py-5 text-white md:flex md:justify-between md:gap-3`}
     >

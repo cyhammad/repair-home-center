@@ -6,7 +6,7 @@ function siemensHero() {
   return (
     <div>
       <div
-        className="hero h-auto p-[20px] pt-[150px] pb-[50px] bg-cover bg-center relative"
+        className="hero h-auto p-[30px] pt-[150px] pb-[50px] bg-cover bg-center relative"
         style={{ backgroundImage: "url('/lg.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -23,7 +23,7 @@ function siemensHero() {
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start justify-center gap-y-2 px-10">
               <button
-                className="px-5 py-4 bg-[#000028] text-white hover:text-neutral-focus hover:text-lg hover:bg-[white] rounded-lg duration-200 shadow-md"
+                className="px-5 py-4 bg-[#007BC0] text-white hover:text-neutral-focus hover:text-lg hover:bg-[white] rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                   gtag_report_conversion(`tel:${phoneNumber}`);
@@ -32,7 +32,7 @@ function siemensHero() {
                 {phoneNumber}
               </button>
               <button
-                className="px-5 py-4 bg-[#000028] rounded-lg text-white hover:text-neutral-focus hover:text-lg hover:bg-[white] duration-200 shadow-md"
+                className="px-5 py-4 bg-[#007BC0] rounded-lg text-white hover:text-neutral-focus hover:text-lg hover:bg-[white] duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
                 }}
