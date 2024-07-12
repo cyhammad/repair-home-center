@@ -16,7 +16,7 @@ function siemensHero() {
               Siemens Appliances Service Center in Dubai and Abu Dhabi.
             </h1>
             <p className="py-6 text-lg font-raleway text-white">
-              Appliances Repairs UAE is a reliable Siemens service center in Dubai
+              We are a reliable Siemens service center in Dubai
               and Abu Dhabi. You can rest assured that your appliance will be
               fixed quickly and efficiently with the highest quality parts
               available.
