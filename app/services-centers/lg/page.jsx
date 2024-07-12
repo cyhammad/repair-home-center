@@ -1,4 +1,4 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/lgHero";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
