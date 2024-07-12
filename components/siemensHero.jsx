@@ -6,7 +6,7 @@ function siemensHero() {
   return (
     <div>
       <div
-        className="hero h-auto p-[30px] pt-[150px] pb-[50px] bg-cover bg-center relative"
+        className="hero h-auto p-[30px] pt-[120px] pb-[50px] bg-cover bg-center relative"
         style={{ backgroundImage: "url('/lg.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
