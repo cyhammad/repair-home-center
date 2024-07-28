@@ -45,7 +45,7 @@ const AboutSection = ({ company = "none" }) => {
             <span className="text-lg font-light">About us</span>
           </div>
           <h1 className="text-3xl font-bold">
-            {company === "none" && "Repair Home Center: "}Your Trusted Appliance
+            {company === "none" && "Appliances Care UAE: "}Your Trusted Appliance
             Repair Experts
           </h1>
           <div className="my-4 border-l-4 border-yellow-400 px-5">
@@ -109,7 +109,7 @@ const AboutSection = ({ company = "none" }) => {
                   <div className="flex items-center justify-center gap-2">
                     <Image src="/logo.svg" width={40} height={40} alt="logo" />
                     <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
-                      Repair Home Center
+                      Appliances Care UAE
                     </h1>
                   </div>
                 </SheetTitle>

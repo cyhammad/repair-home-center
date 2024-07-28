@@ -10,7 +10,7 @@ const fontSans = FontSans({
 });
 
 export const metadata = {
-  title: "Repair Home Center",
+  title: "Appliances Care UAE",
   description: "We repair your home with care and precision.",
 };
 

@@ -68,7 +68,7 @@ const Navlinks = () => {
             <SheetHeader className="py-5">
               <SheetTitle className="flex items-center gap-2">
                 <Image src="/logo.svg" width={30} height={30} alt="logo" />
-                <span className="text-primary">Repair Home Center</span>
+                <span className="text-primary">Appliances Care UAE</span>
               </SheetTitle>
               <SheetDescription className="text-start text-xs">
                 We repair your home with care and precision. We are a team of
