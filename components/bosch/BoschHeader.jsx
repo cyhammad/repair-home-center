@@ -36,7 +36,7 @@ const BoschHeader = () => {
       <header
         className={`${isVisible ? "fixed top-0" : "-top-100 absolute"} ${typeof window !== "undefined" && window.scrollY > 30 ? "mt-0" : "mt-2"} z-50 flex w-full items-center justify-center bg-white px-5 py-5 shadow transition-all duration-200 ease-in-out`}
       >
-        <div className="flex w-full max-w-7xl items-center justify-between gap-5">
+        <div className="flex w-full p-[15px] max-w-7xl items-center justify-between gap-5">
           <Link
             href="/services-centers/bosch"
             className="group flex items-center gap-2"

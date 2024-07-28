@@ -1,4 +1,4 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/boschHero";
 import BoschHeader from "@/components/bosch/BoschHeader";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";

@@ -1,4 +1,4 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/samsungHero";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
@@ -13,8 +13,8 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 const SamsungPage = () => {
   return (
     <div className="flex flex-col">
-      <Header
-        company="samsung"
+      <Header 
+              company="samsung"
         logo={
           <Link
             href="/services-centers/samsung"
@@ -32,6 +32,7 @@ const SamsungPage = () => {
       <HeroSection
         company="samsung"
         title="Samsung Service Center:"
+       
       />
       <StatsSection company="samsung" />
       <AboutSection company="samsung" />
