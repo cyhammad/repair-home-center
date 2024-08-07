@@ -1,25 +1,27 @@
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
+import AboutUs from "@/components/AboutUs";
+import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Header from "@/components/home/Header";
-import ServicesSection from "@/components/ServicesSection";
-import StatsSection from "@/components/StatsSection";
-import Topbar from "@/components/Topbar";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import ScheduleAppointmentSection from "@/components/ScheduleAppointmentSection";
+import LogoSection from "../components/home/Header";
+import Main from "@/components/Main";
+import Qualities from "@/components/Qualities";
+import Services from "@/components/Services";
+import ServicesBar from "@/components/ServicesBar";
+import TopBar from "@/components/TopBar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      <Topbar />
-      <Header />
-      <HeroSection />
-      <StatsSection />
-      <AboutSection />
-      <ServicesSection />
-      <WhyChooseUs />
-      <ScheduleAppointmentSection />
-      <Footer />
-    </div>
+    <>
+      <div>
+        <TopBar />
+        <LogoSection />
+        <Main />
+        <ServicesBar />
+        <AboutUs />
+        <Experience />
+        <Services />
+        <Qualities />
+        <Footer />
+      </div>
+    </>
   );
 }

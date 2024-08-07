@@ -13,7 +13,7 @@ function BoschHero() {
         <div className="relative z-10 hero-content text-center md:text-left text-white">
           <div>
             <h1 className="text-4xl font-bold font-raleway text-white leading-tight">
-              LG Appliances Service Center in Dubai and Abu Dhabi.
+            Fast, reliable repairs for a hassle-free home.
             </h1>
             <p className="py-6 text-lg font-raleway text-white">
               We are a reliable LG service center in Dubai

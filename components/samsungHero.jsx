@@ -15,7 +15,7 @@ function samsungHero() {
             <div>
               <h1 className="text-3xl mt-3 font-bold  font-raleway text-white leading-tight">
                 <span>
-                  Samsung Appliances Service Center in Dubai and Abu Dhabi.
+                Fast, reliable repairs for a hassle-free home.
                 </span>
               </h1>
               <p className="py-6 text-lg font-raleway">
