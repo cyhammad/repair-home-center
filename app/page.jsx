@@ -5,7 +5,6 @@ import LogoSection from "../components/home/Header";
 import Main from "@/components/Main";
 import Qualities from "@/components/Qualities";
 import Services from "@/components/Services";
-import ServicesBar from "@/components/ServicesBar";
 import TopBar from "../components/Topbar";
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
         <TopBar />
         <LogoSection />
         <Main />
-        <ServicesBar />
+  
         <AboutUs />
         <Experience />
         <Services />
