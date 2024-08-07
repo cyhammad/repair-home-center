@@ -6,7 +6,7 @@ import Main from "@/components/Main";
 import Qualities from "@/components/Qualities";
 import Services from "@/components/Services";
 import ServicesBar from "@/components/ServicesBar";
-import TopBar from "@/components/TopBar";
+import TopBar from "../components/Topbar";
 
 export default function Home() {
   return (
