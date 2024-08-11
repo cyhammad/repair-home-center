@@ -19,14 +19,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Include gtag.js script */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16624322208" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16669116070" />
 
         {/* Include gtag.js initialization script */}
         <Script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-16624322208');
+          gtag('config', 'AW-16669116070');
         ` }} />
       </head>
       <body
