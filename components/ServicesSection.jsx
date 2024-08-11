@@ -26,7 +26,7 @@ const ServicesSection = ({ company = "none" }) => {
           <ServiceCard
             type="washing-machine"
             title="Washing Machine Repair"
-            desc="From mysterious leaks to stubborn spin cycles, we'll have your washing machine back in action. Trust Appliances Care UAE for hassle-free laundry days!"
+            desc="From mysterious leaks to stubborn spin cycles, we'll have your washing machine back in action. Trust Appliance Service UAE for hassle-free laundry days!"
           />
           <ServiceCard
             type="dryer"
@@ -43,7 +43,7 @@ const ServicesSection = ({ company = "none" }) => {
           <ServiceCard
             type="stove"
             title="Stove/Cooker Repair"
-            desc="From faulty burners to temperature inconsistencies, we will ensure your cooker is back in action. Cooking made easy with Appliances Care UAE!"
+            desc="From faulty burners to temperature inconsistencies, we will ensure your cooker is back in action. Cooking made easy with Appliance Service UAE!"
           />
           <ServiceCard
             type="dishwasher"
@@ -58,7 +58,7 @@ const ServicesSection = ({ company = "none" }) => {
           <ServiceCard
             type="fridge"
             title="Refrigerator Repair"
-            desc="From cooling woes to mysterious leaks, we're the experts who'll revive your refrigerator. Trust Appliances Care UAE for reliable fridge repairs!"
+            desc="From cooling woes to mysterious leaks, we're the experts who'll revive your refrigerator. Trust Appliance Service UAE for reliable fridge repairs!"
           />
           {(company == "none" ||
             company == "siemens" ||

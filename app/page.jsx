@@ -14,7 +14,6 @@ export default function Home() {
         <TopBar />
         <LogoSection />
         <Main />
-  
         <AboutUs />
         <Experience />
         <Services />

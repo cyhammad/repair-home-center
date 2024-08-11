@@ -67,8 +67,8 @@ const Navlinks = () => {
           <SheetContent side="left">
             <SheetHeader className="py-5">
               <SheetTitle className="flex items-center gap-2">
-                <Image src="/logo.svg" width={30} height={30} alt="logo" />
-                <span className="text-primary">Appliances Care UAE</span>
+                <Image src="/logo-svg.svg" width={30} height={30} alt="logo" />
+                <span className="text-primary">Appliance Service UAE</span>
               </SheetTitle>
               <SheetDescription className="text-start text-xs">
                 We repair your home with care and precision. We are a team of

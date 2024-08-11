@@ -32,20 +32,20 @@ const Experience = () => {
       <div className="flex flex-col md:flex-row">
         <Image
           className="mx-auto flex"
-          src="/aboutpic.jpg"
+          src="/about2.jpg"
           width={500}
           height={500}
           alt="About Us"
         />
         <div className="px-10 flex flex-col justify-center bg-gray-100">
           <h1 className="mt-4 text-center text-4xl font-bold tracking-wide text-black md:mt-2 md:text-left">
-            About Us
+            Our Features
           </h1>
           <h1 className="mt-4 text-center text-xl font-bold tracking-wide text-black md:mt-2 md:text-left">
             20 Years Experience In This Passion
           </h1>
           <p className="mt-6 text-justify text-gray-500">
-            Appliances Care UAE established in Dubai and Abu Dhabi, provides
+            Appliance Service UAE established in Dubai and Abu Dhabi, provides
             home appliance repair and maintenance services over the phone. With
             over 10 years of experience in installing, repairing, and
             maintaining washing machines, stoves, ovens, gas ovens, TVs, LEDs,

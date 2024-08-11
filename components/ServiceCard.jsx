@@ -57,7 +57,7 @@ const ServiceCard = ({ type, title, desc }) => {
                   <div className="flex items-center justify-center gap-2">
                     <Image src="/logo.svg" width={40} height={40} alt="logo" />
                     <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
-                      Appliances Care UAE
+                      Appliance Service UAE
                     </h1>
                   </div>
                 </SheetTitle>

@@ -1,5 +1,5 @@
 import HeroSection from "@/components/siemensHero";
-import AboutSection from "@/components/AboutSection";
+import AboutSection from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
 import StatsSection from "@/components/StatsSection";

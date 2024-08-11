@@ -16,8 +16,8 @@ const Main = () => {
 
   const handleWhatsAppClick = (event) => {
     event.preventDefault();
-    gtag_report_conversion(`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20your%20help%20with%20my%20appliance%20repairs`);
-    router.push(`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20your%20help%20with%20my%20appliance%20repairs`);
+    gtag_report_conversion(`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20assistance%20with%20my%20appliance%20repairs`);
+    router.push(`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20assistance%20with%20my%20appliance%20repairs`);
   };
 
   return (
@@ -28,26 +28,23 @@ const Main = () => {
             <h1 className="text-4xl font-black sm:text-5xl">
               Your appliances deserve the best: <br />
               <span className="text-white/75">
-                Fast, reliable repairs for a hassle-free home.
+                Quick, dependable repairs for a worry-free home.
               </span>
             </h1>
             <p>
-              Our skilled technicians are committed to restoring your appliances
-              to peak performance, ensuring your comfort and convenience. From
-              fixing minor glitches to tackling major breakdowns, we've got you
-              covered. Experience top-notch service that keeps your household
-              running smoothly!
+              Our expert technicians are dedicated to bringing your appliances
+              back to optimal performance, ensuring your comfort and convenience. Whether it's a minor fix or a major repair, we're here to help. Experience superior service that keeps your home running seamlessly!
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link href={`tel:${phoneNumber}`} target="_blank" onClick={handleCallClick}>
               <div
-                className="flex flex-shrink-0 justify-center rounded border bg-pink px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-black"
+                className="flex flex-shrink-0 justify-center rounded border bg-black px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-black"
               >
                 Call Us
               </div>
             </Link>
-            <Link href={`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20your%20help%20with%20my%20appliance%20repairs`} target="_blank" onClick={handleWhatsAppClick}>
+            <Link href={`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20assistance%20with%20my%20appliance%20repairs`} target="_blank" onClick={handleWhatsAppClick}>
               <div
                 className="flex flex-shrink-0 justify-center rounded border bg-black/50 px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-black"
               >

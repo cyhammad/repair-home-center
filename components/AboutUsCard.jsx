@@ -23,7 +23,7 @@ const AboutUsCard = ({ title, description }) => {
       <Link
         href={`tel:${phoneNumber}`}
         target="_blank"
-        className="mb-4 flex justify-center rounded self-end mx-4 border-4 border-none bg-pink px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-black"
+        className="mb-4 flex justify-center rounded self-end mx-4 border-4 border-none bg-black px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-black"
         onClick={handleCallClick}
       >
         Call Us

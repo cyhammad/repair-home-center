@@ -6,9 +6,9 @@ import React from "react";
 const Footer = ({
   logo = (
     <Link href="/" className="group flex items-center gap-2">
-      <Image src="/logo.svg" width={40} height={40} alt="logo" />
+      <Image src="/logo-svg.svg" width={40} height={40} alt="logo" />
       <h1 className="cursor-pointer text-lg font-semibold group-hover:text-primary">
-        Appliances Care UAE
+        Appliance Service UAE
       </h1>
     </Link>
   ),
@@ -33,7 +33,7 @@ const Footer = ({
         </div>
       </div>
       <div className="w-full justify-center gap-1 border-t border-black/20 py-5 text-center text-xs">
-        © 2024 Appliances Care UAE. All rights reserved.
+        © 2024 Appliance Service UAE. All rights reserved.
       </div>
     </footer>
   );

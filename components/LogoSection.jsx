@@ -34,9 +34,9 @@ const LogoSection = () => {
       <div className="flex h-full w-full max-w-7xl items-center justify-between bg-white px-4 py-2">
         {pathname === "/" ? (
           <div className="flex items-center">
-            <Image src="/logo.png" width={50} height={50} alt="Logo" />
-            <h2 className="mx-3 text-lg font-bold">
-              Appliances Care UAE
+            <Image src="/logo-svg.svg" width={50} height={50} alt="Logo" />
+            <h2 className="mx-6 text-lg font-bold">
+              Appliance Service UAE
             </h2>
           </div>
         ) : pathname === "/service-center/bosch" ? (
@@ -72,7 +72,7 @@ const LogoSection = () => {
       </div>
       {showMenu && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-pink text-white"
+          className="fixed inset-0 flex items-center justify-center bg-black text-white"
           onClick={() => setShowMenu(false)}
         >
           <ul className="text-xl font-semibold text-white">

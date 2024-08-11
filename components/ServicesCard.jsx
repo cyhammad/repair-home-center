@@ -31,7 +31,7 @@ const ServicesCard = ({ title, description, imageSrc }) => {
       <Link
         href={`tel:${phoneNumber}`}
         target="_blank"
-        className="mx-4 mb-5 flex flex-shrink-0 justify-center self-end rounded border-4 border-none bg-pink px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-black"
+        className="mx-4 mb-5 flex flex-shrink-0 justify-center self-end rounded border-4 border-none bg-black px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-black"
         onClick={handleCallClick}
       >
         Call Us

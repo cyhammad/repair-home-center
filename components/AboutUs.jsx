@@ -1,45 +1,68 @@
-import AboutUsCard from "./AboutUsCard";
+import Image from "next/image";
 
-const AboutUs = () => {
-  const cards = [
-    {
-      title: "20 Years Of Experience",
-      description:
-        "Delivering top-tier home repair services across the UAE with two decades of unmatched expertise and dedication to quality craftsmanship.",
-    },
-    {
-      title: "30 Minutes Quick Appointment",
-      description:
-        "Get your home repairs done swiftly with our 30-minute quick appointment service, ensuring efficient solutions tailored to your needs.",
-    },
-    {
-      title: "16 Technicians",
-      description:
-        "With a team of 16 skilled technicians, we offer comprehensive coverage and rapid response to all your home repair needs across the UAE.",
-    },
-    {
-      title: "10k Repairs Experience",
-      description:
-        "Benefit from our extensive 10,000 repairs worth of experience, ensuring reliable solutions and expertise for your home repair needs.",
-    },
-  ];
-
+const AboutSection = () => {
   return (
-    <div className="flex min-h-[600px] w-full items-center justify-center pb-16 pt-8 md:pt-5">
-      <div className="flex w-full max-w-7xl flex-col px-5">
-        <h1 className="text-center text-3xl font-black">Our Qualities</h1>
-        <h1 className="mt-5 text-center text-gray-500">
-          Appliances Care UAE established in Dubai and Abu Dhabi, provides
-          home appliance repair and maintenance services over the phone.
-        </h1>
-        <div className="flex flex-wrap justify-between">
-          {cards.map((card, index) => (
-            <AboutUsCard key={index} {...card} />
-          ))}
+    <div className="flex justify-center">
+      <div className="flex w-full max-w-7xl flex-col gap-10 px-5 py-20 lg:flex-row">
+        <div className="flex flex-col gap-y-5 lg:w-1/2">
+          <div className="flex items-center gap-x-1">
+            <Image src="/line.svg" width={25} height={25} alt="line" />
+            <span className="text-sm font-semibold uppercase text-[#285EB2]">
+              About Us
+            </span>
+          </div>
+          <span className="text-[2.5rem] font-extrabold leading-[3.0rem]">
+            The Repairing Experts You've <br /> Trusted For Over 30 Years.
+          </span>
+          <span className="text-lg font-semibold text-black/70">
+            Commercial & Residential Clients across Dubai and Abu Dhabi Home
+            Appliances for their fast and reliable 24 hour repairing services.
+          </span>
+          <span className="font-light">
+            Appliance Service UAE, serving Dubai and Abu Dhabi, adopts agile
+            frameworks to offer a comprehensive overview of our services. Our
+            iterative approach to corporate strategy encourages collaborative
+            thinking, enhancing our overall value proposition. We believe in
+            organically cultivating a holistic worldview of disruptive
+            innovation through workplace diversity and empowerment.
+          </span>
+          <div className="grid sm:grid-cols-2 gap-x-14 gap-y-3">
+            <div className="flex items-center gap-x-2">
+              <Image src="/tick.svg" width={20} height={20} alt="tick" />
+              <span className="text-medium">Qualified Team</span>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <Image src="/tick.svg" width={20} height={20} alt="tick" />
+              <span className="text-medium">Punctuality</span>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <Image src="/tick.svg" width={20} height={20} alt="tick" />
+              <span className="text-medium">Affordable Pricing</span>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <Image src="/tick.svg" width={20} height={20} alt="tick" />
+              <span className="text-medium">24/7 Service</span>
+            </div>
+          </div>
+        </div>
+        <div className="relative flex h-fit lg:w-[50%] justify-end ml-24 bg-red-100">
+          <Image
+            src="/repair.webp"
+            width={500}
+            height={500}
+            alt="repair image"
+            className="w-full"
+          />
+          <div className="absolute -bottom-20 -left-20 flex flex-col gap-y-2 rounded-xl bg-[#285EB2] px-10 py-3 text-center text-white">
+            <span className="text-5xl font-bold">3.4K+</span>
+            <span className="text-lg">
+              Satisfied Clients <br /> In Our Locality
+            </span>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default AboutUs;
+export default AboutSection;
