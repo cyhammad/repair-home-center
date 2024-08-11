@@ -44,7 +44,7 @@ const Header = ({
     <header
       className={`${company === "none" && (typeof window !== "undefined" && window.scrollY > 30 ? "mt-0" : "mt-[36px]")} ${isVisible ? "fixed top-0" : "-top-100 absolute"} z-50 flex w-full items-center justify-center bg-white px-5 ${company === "samsung" || "siemens" ? "py-6" : "py-3"} shadow transition-all duration-200 ease-in-out`}
     >
-      <div className="flex w-full max-w-7xl p-[15px] items-center justify-between gap-5">
+      <div className="flex w-full max-w-7xl items-center justify-between gap-5">
         {logo}
         <Navlinks />
       </div>
